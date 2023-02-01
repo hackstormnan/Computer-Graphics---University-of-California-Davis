@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Shaders">
+      <UniqueIdentifier>{6af61e99-9b9a-409f-8849-4792c9e5ee93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine">
+      <UniqueIdentifier>{c748a958-4ee9-4959-987a-eedff8750f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Render">
+      <UniqueIdentifier>{c1caf375-3ef6-40e8-bd7d-f514916da906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Game">
+      <UniqueIdentifier>{dd69abc3-3799-4665-aaf7-e0e79d9e1e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Entity">
+      <UniqueIdentifier>{8063cf3f-7dda-402c-8591-b673b0f74370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Application">
+      <UniqueIdentifier>{b2e5f365-7458-4d0e-937f-7acad03b936f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Utility">
+      <UniqueIdentifier>{0ddec728-7f6f-4de6-aa0c-1da7ad7fa601}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\Input">
+      <UniqueIdentifier>{80cdf1ae-585b-4452-ae16-c2735092e0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\ImGUI">
+      <UniqueIdentifier>{938e3487-1430-4c7d-8b6f-08f82882de05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Engine\UI">
+      <UniqueIdentifier>{7563c11d-b9fa-470d-a5d9-4416502d830c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferLayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityInstance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_glfw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_opengl3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_TransformEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WireFrameEntity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VertexArray.h">
+      <Filter>头文件\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBuffer.h">
+      <Filter>头文件\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferLayout.h">
+      <Filter>头文件\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>头文件\Engine\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>头文件\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexBuffer.h">
+      <Filter>头文件\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>头文件\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>头文件\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="GL_Dependencies.h">
+      <Filter>头文件\Engine\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>头文件\Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityInstance.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>头文件\Engine\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>头文件\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>头文件\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>头文件\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_glfw.h">
+      <Filter>头文件\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_opengl3.h">
+      <Filter>头文件\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>头文件\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>头文件\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>头文件\ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>头文件\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_TransformEditor.h">
+      <Filter>头文件\Engine\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>头文件\Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>头文件\Engine\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="WireFrameEntity.h">
+      <Filter>头文件\Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\Basic.shader">
+      <Filter>资源文件\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
