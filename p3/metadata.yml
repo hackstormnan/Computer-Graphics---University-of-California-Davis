@@ -1,0 +1,12 @@
+---
+:id: 57682316
+:submitters:
+- :name: Jianan Xu
+  :email: jnaxu@ucdavis.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2020-12-01 11:34:10.915026000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2020-12-01 03:34:10.915026000 Z
+:status: processed
+:score: 71.0

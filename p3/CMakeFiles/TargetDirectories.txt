@@ -1,0 +1,3 @@
+/root/code/ChrenoEngine/CMakeFiles/rebuild_cache.dir
+/root/code/ChrenoEngine/CMakeFiles/main.dir
+/root/code/ChrenoEngine/CMakeFiles/edit_cache.dir
