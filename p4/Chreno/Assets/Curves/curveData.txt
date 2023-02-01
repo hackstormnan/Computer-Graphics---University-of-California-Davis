@@ -1,0 +1,27 @@
+# Bezier curve data:
+# A of total Bezier curve, followed by number of control points:
+b 1
+4
+-400 100
+-400 -100
+-200 -100
+-200 100
+
+# B-spline curve data:
+# First the number of b-spline curves, first property degree, second knot type, then control points data, followed by knots data:
+s 1
+2
+1
+4
+200 100
+200 -100
+400 -100
+400 100
+7
+0
+1
+2
+3
+4
+5
+6
