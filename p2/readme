@@ -1,31 +1,30 @@
-Hey yo~ welcome to the cherno engine manual, I learned some structure of the renderring from my favorate Youtuber "The Cherno"'s OpenGL play list https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2
+Hey there! Welcome to The Cherno Engine Manual. I've delved into rendering concepts, inspired by my favorite YouTuber 'The Cherno' and his enlightening OpenGL playlist: https://www.youtube.com/watch?v=W3gAzLwfIP0&list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2.
 
-This renderring engine used plugin of 
-1.GLEW and 
-2.GLFW as the set up of opengl framework
-3.GLM library for using glm::vec3 and glm::mat4 structs to store vertex and matrix.
-4.ImGUI library for simple UI handling of the tranform of the entities
+The rendering engine harnesses the power of the following components:
 
-Manual of the engine:
+GLEW and
+GLFW for establishing the OpenGL framework setup.
+GLM library, enabling the use of glm::vec3 and glm::mat4 structures for efficient vertex and matrix storage.
+ImGUI library for simplified UI interaction, facilitating entity transformations.
+Engine Manual:
 
-1.Start: click Chreno.sln and press F5 to run the app in (x86) setting (in Visual Studio)
+Getting Started: Simply fire up 'Chreno.sln' and hit F5 to initiate the application under the (x86) configuration setting within Visual Studio.
 
-2.Camera: There are total 4 cameras on the scene which are:
-  - Top Left: Projective
-  - Top Right: Orthographic - XY plane
-  - Down Left: Orthographic - XZ plane
-  - Down Right: Orthographic - YZ plane
+Cameras: The scene boasts four distinct cameras:
 
-3.Entities: The engine will load 3 object defined in file (Assets/Objs/Objects.txt), you can easily switch between them by click button
+Top Left: Projective
+Top Right: Orthographic - XY plane
+Bottom Left: Orthographic - XZ plane
+Bottom Right: Orthographic - YZ plane
+Entities: The engine loads three objects specified in 'Assets/Objs/Objects.txt'. Switch between them effortlessly using the designated button.
 
-4.Property Window: The Transform Editor window is an override window from ImGUI plugin where you can edit the transform properties of the 3 entities.
+Property Window: The Transform Editor window, an ImGUI-powered tool, empowers you to manipulate the transformation properties of the entities.
 
-  -To switch between entities, click the buttons below Entity List
+Toggle between entities by clicking the buttons below the Entity List.
 
-  -To Edit position, euler angle or scale of the selected entity: drag the bar on the Transform editor
+To adjust the position, Euler angles, or scale of the selected entity, simply drag the bars within the Transform Editor.
 
-5.Save scene: Hit SPACE button to save the scene which will record current vertices of all entities on the scene into (Assets/Objs/Objects.txt)
-  
-  -When start the engine again, properties saved last time will be loaded
-  (Since in this project, the vertices are saved instead of tranform, every time the engine restart, the transform will be restart to 0
-   However, the relative shape of the objects remain the same)
+Scene Saving: Press SPACE to save the scene, preserving the current vertices of all entities in 'Assets/Objs/Objects.txt'.
+
+Properties saved in the previous session will be reloaded upon engine startup.
+(Please note that, in this project, vertices are saved instead of transformations. Consequently, upon engine restart, transformations reset to the default, though the relative shapes of objects remain unaffected.)
