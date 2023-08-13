@@ -1,1 +1,17 @@
+The cutting algorithm is designed to isolate the selected area while excluding all other image data. During program execution, pressing the 'M' key toggles between cut mode and normal mode. In cut mode, a left mouse button click at the upper-left corner and release at the lower-right corner defines the cutting area, automatically exiting the mode. Pressing 'Y' confirms the selection, and pressing 'R' clears the cut area, enabling further cutting.
 
+The program extends the drawing method beyond the original content. It can draw using user-input data or predefined program data. A custom drawing function introduces the ability to create new graphics based on user interaction during program execution.
+
+The program offers expanded drawing capabilities:
+3.1 In non-special modes, four successive left mouse button clicks followed by 'W' generate coordinates for a quadrilateral; three right mouse button clicks followed by 'W' define a triangle.
+3.2 Press 'S' to enter selection mode and click within a shape to select it.
+3.3 After selecting, use 'O/P' to scale, 'A/S/D/F' to move up/down/left/right, and 'K/L' to rotate counterclockwise/clockwise around the center.
+3.4 To initiate cutting, press 'M', then 'Y' to confirm the cut area; press 'R' to restore the shape. Press 'M' again to exit cut mode.
+3.5 Clear all graphics, including cut areas, by pressing 'C'. Exit the program with 'Q'.
+
+The program acquires input parameters from the console. Main function parameters: 0th parameter (program path) is automatic; parameters 1-8 are (x, y) coordinate pairs for quadrilateral points; parameters 9-14 are (x, y) coordinate pairs for triangle points.
+
+Console input example: ProgramName.exe 0.0 0.0 1.0 0.0 1.0 1.0 0.0 1.0 3.0 0.0 3.0 1.0 2.0 0.0
+Explanation: Starting from the first '0, 0', the following 8 data (including itself) form the coordinates of the first quadrilateral. Starting from the 9th data, the following 6 data (including itself) define the points of the first triangle.
+
+Finally, the program was executed using Visual Studio.
