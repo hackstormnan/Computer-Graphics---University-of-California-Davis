@@ -1,0 +1,31 @@
+"Hey there!
+
+For this exciting project, I delved into the realm of OpenGL to master the art of rendering pixel buffers. It's worth noting that no OpenGL math was involved in this endeavor.
+
+In this assignment, I ambitiously set out to implement five distinct surfaces, each adding its unique flavor to the visual tapestry:
+
+1. **Plane**
+2. **Sphere**
+3. **Triangle**
+4. **Cube**
+5. **Tetrahedron** (although the epic ellipsoid intersection remained a challenge to conquer)
+
+For the input, I skillfully utilized an XML file stored in the `RayTracer/inputs/scene1.xml` folder.
+
+I'm thrilled to showcase the breathtaking results with sample images already available in the `SampleOutput` folder. Additionally, there's a captivating picture portraying the outcome of rendering a random scene in the skeleton code - a cool feature I couldn't resist sharing.
+
+Now, let's unravel the captivating scene:
+
+- A majestic plane featuring a phong material stands resolute on the ground.
+- A cube graces the forefront, captivating the viewer with its dielectric material.
+- The middle stage boasts three spheres adorned with materials ranging from matel to dielectric, concluding with a classic phong material.
+- A triumphant tetrahedron embraces a phong material, nestled in the left backdrop.
+- In the right rear, a cube proudly showcases its matel material.
+- A charming triangle flaunts a phong material in the left background.
+
+Adding to the magic are three illuminating lights: ambient, directional, and point light. These lights orchestrate a symphony of shadows, gracing the ground with two mesmerizing shadows. (Please note that shadow cast wisely sidesteps dielectric material.)
+
+With each pixel, this project embarks on a journey of light, shadow, and intricate surfaces, culminating in a mesmerizing visual spectacle."
+
+
+
