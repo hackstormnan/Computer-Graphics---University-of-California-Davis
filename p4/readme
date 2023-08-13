@@ -1,0 +1,32 @@
+In the assignment, I implemented the code in the following files:
+- `Engine.h` and `Engine.cpp` for data storage and manipulation.
+- `Renderer.h` and `Renderer.cpp` for the algorithms.
+- `UI_SimpleEditor.h` and `UI_SimpleEditor.cpp` for the user interface (UI).
+
+Upon running the application, I observed the following functionalities:
+
+1. Two distinct curves were displayed on the screen:
+   - The left curve represented a Bezier curve.
+   - The right curve represented a B-spline curve.
+
+2. The UI panel provided options to create or delete individual curves.
+
+3. For editing each curve, I accessed the respective edit panel by clicking the curve name button:
+
+   3.1. **Bezier Curve Editor:**
+       I effectively manipulated the control points using actions such as:
+       - Pushing back points.
+       - Inserting new points.
+       - Deleting points.
+       - Modifying properties of individual points.
+
+   3.2. **B-spline Curve Editor:**
+       I performed similar actions as in the Bezier curve editor. Additionally, I adjusted the:
+       - Degree of the curve (automatic correction applied when needed).
+       - Line connection type (considering connectivity to start and end points).
+       - Properties of each knot.
+
+4. I utilized the following functionalities for saving and loading:
+   - The "Save" button on the main panel stored all curve data in `Assets/Curves/curveData.txt`.
+   - Similarly, the "Load" button read data from the same text file.
+   - In case of need, the "Reset" button efficiently restored the scene to its initial state, with a Bezier curve on the left and a B-spline curve on the right.
